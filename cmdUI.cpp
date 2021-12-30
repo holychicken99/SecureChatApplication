@@ -1,8 +1,30 @@
 #include <iostream>
 
+//Room class, Identity class
 
+void Help(){
+    //Display the use of all command
+}
 
+void Join(){
+    //Join a room given a room id
+}
 
+void ExitRoom(){
+    //Leave all room and exit the program
+}
+
+void CreateRoom(){
+    //Create a room and give it a unique id and room name, and the mode of the room: public or private
+}
+
+void Whisper(){
+    //Whisper a secret message to the reciper of the same room given their name and unique id in that room, or maybe room id
+}
+
+void Browse(){
+    //Display the list of all current public room, if the list of current room has size of more than 10, display the first 10 and if the user type in next, we move to the next 10 until no more room can be display
+}
 
 void PrintWelcome(){
 
