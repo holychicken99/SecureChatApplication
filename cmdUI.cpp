@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 //Room class, Identity class
 
@@ -51,11 +52,19 @@ int main(){
 
     PrintWelcome();
 
-
-    
-
-
-    
+    bool running = true;
+    while (running){
+        std::string input;
+        std::cin >> input;
+        if (input[0] == '/'){
+            //Handle the function
+            
+        } else {
+            //Print the message to the current chat room we are in
+            std::cout << "Message sent!!!"
+                        << input << std::endl;
+        }
+    }
 
     return 0;
 }
