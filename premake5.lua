@@ -7,7 +7,7 @@ language "C++"
 
 targetdir "build/%{cfg.buildcfg}" 
 files { " ./server/**.cpp" } 
-includedirs { "./includes/**",  "~/Documents/Headers/boost/"}
+includedirs { "./includes/**",  "./asio/include/boost/**"}
 buildoptions {"-Wall","-g"}
 
     filter "configurations:Debug"
